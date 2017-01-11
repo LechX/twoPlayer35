@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- loading jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- loading font -->
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="gameStatus">
+            <!-- current score, turn -->
+            <div id="currentScore">
+                <p>CURRENT SCORE:</p>
+                <p id="score">0</p>
+            </div>
+            <div id="currentTurn"><p id="turn"></p></div>
+        </div>
+        <div id="gameButtons">
+            <!-- buttons -->
+            <button class="adders" id="one" onclick=addScore(1)>1</button>
+            <button class="adders" id="two" onclick="addScore(2)">2</button>
+            <button class="adders" id="three" onclick="addScore(3)">3</button>
+            <button class="adders" id="four" onclick="addScore(4)">4</button>
+        </div>
+        <div id="gameEnd">
+            <!-- win message and restart button -->
+            <div id="endMessage" class="hide-me"></div>
+            <button id="restartButton" class="hide-me">START OVER</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

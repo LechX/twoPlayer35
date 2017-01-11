@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#gameStatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#gameButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+#gameEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+button {
+    border-color: mediumspringgreen;
+    border-width: 10px;
+}
+
+#restartButton {
+    height: 20vh;
+    weight: 20vw;
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.adders {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: darkred;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif;
+}
+
+#currentScore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumspringgreen;
+    height: 20vh;
+    width: 45vw;
+    color: darkslategray;
+    border-radius: 10px;
+    border: solid 5px darkslategray;
+}
+
+#currentTurn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumspringgreen;
+    height: 20vh;
+    width: 45vw;
+    color: darkslategray;
+    border-radius: 10px;
+    border: solid 5px darkslategray;
+}
+
+#endMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumspringgreen;
+    height: 20vh;
+    width: 45vw;
+    border-radius: 10px;
+    color: darkslategray;
+    border: solid 5px darkslategray;
+}
+
+#restartButton {
+    width: 45vw;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.hide-me {
+
+}
